@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carlos Dantas Portifólio</title>
+
+  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet" href="./css/style-home.css">
+  <link rel="stylesheet" href="./css/style-sobre.css">
+  <link rel="stylesheet" href="./css/style-habil.css">
+  <link rel="stylesheet" href="./css/style-contato.css">
+  <link rel="stylesheet" href="./css/style-menu.css">
+  <link rel="stylesheet" href="./css/style-portf.css">
+  <link rel="stylesheet" href="./css/style-body.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+  <nav id="menu-container" class="container-menu">
+    <img src="assets/FB_IMG_1545686714065-removebg-preview.png" alt="">
+    <a href="#home" class="item">HOME</a>
+    <a href="#sobre" class="item">SOBRE</a>
+    <a href="#habil" class="item">HABILIDADES</a>
+    <a href="#portif" class="item">PORTIFÓLIO</a>
+    <a href="#contato" class="item">CONTATOS</a>
+  </nav>
+
+  <section id="home" class="home">
+    <h1 class="h1">Home</h1>
+    <div class="moldura-home">
+
+      <h2 class=" animate__fadeOutLeft">Olá, eu sou Carlos Dantas</h2>
+      <h3 class=" h3 animate__fadeOutRight">Desenvolvedor Front End</h3>
+      <img class="home-img" src="./assets/fotocarlos300x600.jpg" alt="Imagem de Carlos Dantas">
+    </div>
+
+
+
+  </section>
+
+  <section id="sobre" class="sobre">
+    <h1 class="h1">Sobre</h1>
+    <div class="moldura-sobre">
+      <p><strong>Nome completo:</strong> Carlos Jorge Dantas de Oliveira</p>
+      <p><strong>Idade:</strong> 59 anos</p>
+      <p><strong>Nacionalidade: </strong>brasileiro</p>
+      <p><strong>Naturalidade:</strong> Mamanguape-PB</p>
+      <p><strong>Local de residência:</strong> Fortaleza-CE</p>
+      <p><strong>Telefone:</strong> (85) 996868216</p>
+      <p><strong>E-mail:</strong> cjdantasoliveira@gmail.com </p>
+      <p><strong>Grau de instrução:</strong> Formado em Letras pela UECE (Universidade Estadual do Ceará) e Doutor em Teoria da Literatura pela USC (Universidade de Santiago de Compostela). Iniciou, em 2022, o curso de Análise e Desenvolvimento de Sistemas pela Universidade Estácio de Sá. Todavia, ainda não renovou a sua matrícula este semestre.</p>
+    </div>
+
+
+  </section>
+
+  <section id="habil" class="habil">
+    <h1>Habilidades</h1>
+    <div class="moldura-habil">
+      <img class="css animate__tada animate__delay-2s" src="assets/css.jpg" alt="Ícone do css">
+      <p>Cascading Style Sheets (Folhas de estilo em cascata) é um mecanismo para adicionar estilos a uma página Web, aplicado diretamente nas tags HTML ou ficar contido dentro das tags style. Estudei esse mecanismo inicialmente na plataforma da Alura. Depois, na plataforma da Origamid.</p>
+      <img class="html animate__tada animate__delay-2s" src="assets/html.png" alt="Ícone do html">
+      <p>HyperText Markup Language (Linguagem de Marcação de Hiperexto) - Linguagem que permite criar programas que trabalham com textos e imagens numa mesma tela simultaneamente. Tomei conhecimento desta linguagem há muito tempo, mas só nos últimos me dediquei ao seu estudo.</p>
+      <img class="javascript animate__tada animate__delay-2s animate_infinitive" src="assets/javascript.png" alt="Ícone do javascript">
+      <p>
+        Uma linguagem de script, compacta e baseada em objeto, desenvolvida pela Netscape Communications como uma linguagem de macros para servidores. É utilizada na editoração para a Web (www), pois os autores da Web podem incorporar instruções simples de programação semelhantes às da linguagem Java no texto HTML de suas páginas. Minha experiência com esta linguagem, em comparação com as anteriores, é mais recente. Fiz cursos na Web com o prof. Guanabara, na Alura e, recentemente, na Origamid.
+      </p>
+
+    </div>
+
+
+  </section>
+
+  <section id="portif" class="portf">
+    <h1 class="h1">Portifólio</h1>
+
+    <div class="livros-lidos">
+      <header>
+        <h1>Ler Livros</h1>
+      </header>
+      <div class="descricao">
+        <p><strong>Ler Livros</strong> é uma programa para guardar uma lista de livros lidos. Ele nasceu da necessidade de saber quantos livros em conseguiria ler em uma ano. Tudo começou quando o meu médico me perguntou quantos livros eu lia por mês. Como eu não tinha a resposta, resolvi anotar num caderno o nome do autor, o título, a quantidade de páginas e a categoria do livro.</p>
+      </div>
+      <div class="moldura-dados">
+        <form id="dados">
+          <label for="autor">Autor</label>
+          <input type='text' id='autor' name='autor' placeholder="Digite o autor">
+
+          <label for="obra">Obra</label>
+          <input type="text" id="obra" name="obra" placeholder="Digite o título">
+
+          <label for="paginas">Número de páginas</label>
+          <input type='number' id='paginas' name='paginas' placeholder="Digite o número de páginas">
+
+          <select name="generos" id="generos">
+            <option value="poesia">Poesia</option>
+            <option value="ficcao">Ficção</option>
+            <option value="politica">Política</option>
+            <option value="misterios">Mistérios</option>
+            <option value="historia">História</option>
+          </select>
+
+          <input type="button" id="btn" value="Enviar">
+
+        </form>
+
+      </div>
+      <div id="portf-res" class="lista"></div>
+
+    </div>
+
+    <script src="script.js">
+    </script>
+    </div>
+
+  </section>
+
+  <section id="contato" class="contact">
+    <div>
+      <h1 class="contact-h1">Contatos</h1>
+    </div>
+
+    <div class="moldura-contato">
+      <img src="./assets/icons8-google-logo-60.png" alt="Ícone do google" class="google">
+      <p class="gmail">cjdantasoliveira@gmail.com</p>
+      <img class="insta" src="assets/icons8-instagram-48.png" alt="Ícone do instagram">
+      <p class="instagram">@poetacarlos</p>
+
+      <img class="link" src="assets/icons8-linkedin-94.png" alt="Ícone do linkedin">
+      <p class="linkedin">https://www.linkedin.com/in/carlosdantasoliveira/</p>
+
+      <img class="gitpoet" src="./assets/icons8-github-64.png" alt="Ícone do github">
+      <p class="git">gitpoet</p>
+    </div>
+
+  </section>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+
+#menu-container{
+    position: sticky;
+    top: 1px;
+    z-index: 1;
+}
+.container-menu{
+  background: #FF8C00;
+  width: 100% 1fr;
+  margin: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+
+}
+img{
+  width: 70px;
+  height: 70px;
+}
+
+
+.item{
+  margin: 10px;
+  padding: 0 10px;
+  padding: 10px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #8B4513;
+  justify-content: space-around;
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+

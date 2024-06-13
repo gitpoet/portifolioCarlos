@@ -1,0 +1,119 @@
+.portf{
+  background: #FF8C00;
+  right: 300px;
+  width: 100% 1fr;
+  margin: 20px;
+  border: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+
+.portf header{
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 2rem;
+  text-shadow: 2px 2px 0px white
+  
+}
+.descricao{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.livros-lidos{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.502);
+  background-color: burlywood;
+}
+.moldura-dados{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  border: 2px solid white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin: 20px 20px 20px 20px;
+  min-width: 400px;
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.502);
+
+
+}
+.lista{
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: white;
+  border: 2px solid white;
+  padding: 20px;
+  margin: 20px 20px 20px 20px;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.502);
+}
+
+.h1{
+  margin-left: 20px;
+}
+div{
+  color: black;
+}
+input{
+  width: 90%;
+  background-color: #FF8C00;
+  font-size: 1em;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px 0;;
+  border: none;
+  border-radius: 4px;
+
+}
+select{
+  width: 100%;
+    background-color: #FF8C00;
+    font-size: 1em;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+#btn{
+  width: 100%;
+    background-color: #8B4513;;
+    font-size: 1em;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#btn:hover{
+  background-color: brown;;
+}
+.moldura-verificaIdade{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.502);
+  background-color: burlywood;
+}

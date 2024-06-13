@@ -1,0 +1,103 @@
+.contact{
+  background: #FF8C00;
+  right: 300px;
+  width: 100% 1fr;
+  margin: 20px;
+  border: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  
+}
+
+.contact-h1{
+  color: #8B4513;
+  color: white;
+  font-size: 2rem;
+  margin-left: 30px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+}
+
+.gitpoet{
+  right: 100px;
+  width: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+.link{
+  right: 150px;
+  width: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+
+}
+.insta{
+  right: 150px;
+  width: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+
+}
+.google{
+  right: 150px;
+  width: 100px;
+  margin-left: 20px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.gmail{
+  font-size: 1.5rem;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.instagram{
+  font-size: 1.5rem;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.linkedin{
+  font-size: 1.5rem;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+.git{
+  font-size: 1.5rem;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+.moldura-contato{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.502);
+  background-color: burlywood;
+}
