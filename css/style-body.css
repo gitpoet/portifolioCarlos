@@ -4,3 +4,8 @@ body{
   background-color: darkslateblue;
   margin: 20px;
 }
+
+img{
+  max-width: 100%;
+  display: block;
+}
