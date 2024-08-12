@@ -1,12 +1,13 @@
 .portf{
   background: #FF8C00;
-  right: 300px;
-  width: 100% 1fr;
+  max-width: 100%;
   margin: 20px;
-  border: 20px;
+  border: 10px;
   border-radius: 5px;
   padding: 10px;
-  color: white;
+  display: flex;
+  flex-wrap: wrap;
+
 }
 
 .portf header{
@@ -19,7 +20,8 @@
 }
 .descricao{
   margin-left: 20px;
-  margin-right: 20px;
+  
+
 }
 
 .livros-lidos{

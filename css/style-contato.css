@@ -1,7 +1,6 @@
 .contact{
   background: #FF8C00;
-  right: 300px;
-  width: 100% 1fr;
+  max-width: 100%;
   margin: 20px;
   border: 20px;
   border-radius: 5px;
@@ -10,37 +9,28 @@
 }
 
 .contact-h1{
-  color: #8B4513;
+  
   color: white;
   font-size: 2rem;
   margin-left: 30px;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 2;
-
+  text-shadow: 2px 2px 0px black;
 }
 
-.gitpoet{
-  right: 100px;
-  width: 100px;
-  margin-left: 20px;
-  margin-top: 20px;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 5;
-  grid-row-end: 6;
-}
-.link{
+.google{
   right: 150px;
   width: 100px;
   margin-left: 20px;
-  margin-top: 20px;
   grid-column-start: 1;
   grid-column-end: 2;
-  grid-row-start: 4;
-  grid-row-end: 5;
-
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.gmail{
+  font-size: 1.5rem;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 .insta{
   right: 150px;
@@ -49,42 +39,50 @@
   margin-top: 20px;
   grid-column-start: 1;
   grid-column-end: 2;
-  grid-row-start: 3;
-  grid-row-end: 4;
-
-}
-.google{
-  right: 150px;
-  width: 100px;
-  margin-left: 20px;
-  grid-column-start: 1;
-  grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
-}
 
-.gmail{
-  font-size: 1.5rem;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
 }
 .instagram{
   font-size: 1.5rem;
   grid-column-start: 2;
   grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.link{
+  right: 150px;
+  width: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
+  grid-column-start: 1;
+  grid-column-end: 2;
   grid-row-start: 3;
   grid-row-end: 4;
 }
+
+
 .linkedin{
   font-size: 1.5rem;
   grid-column-start: 2;
   grid-column-end: 3;
-  grid-row-start: 4;
-  grid-row-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
 .git{
+  right: 150px;
+  width: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
+ 
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.gitpoet{
   font-size: 1.5rem;
   grid-column-start: 2;
   grid-column-end: 3;
@@ -95,7 +93,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  padding: 15px;
+  padding: 20px;
   margin: 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.502);
